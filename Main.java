@@ -14,13 +14,16 @@ public class Main {
 //        account.debitMoney(-50);
 //        System.out.println("Balance: " + account.getBalance());
 
-        Country russia = new Country("Russia");
-        russia.setCapital("Moscow");
-        russia.setAccessSea(true);
-        System.out.println(russia.getCapital() + " " + russia.getCountry()+" " +(russia.isAccessSea()?"имеет выход к морю":"не имеет выхода к морю"));
+        //task 5.4.1
 
-        ;
+//        Country russia = new Country("Russia");
+//        russia.setCapital("Moscow");
+//        russia.setAccessSea(true);
+//        System.out.println(russia.getCapital() + " " + russia.getCountry()+" " +(russia.isAccessSea()?"имеет выход к морю":"не имеет выхода к морю"));
 
+//task 5.4.2
+        Cat vasyaCat=new Cat("Васька", true,1.5 );
+        System.out.println("Имя кота " + vasyaCat.getName() +" "+ (vasyaCat.isBreed()?"породистый":"дворовый") + " весом " + vasyaCat.getWeight());
 
     }
 }
