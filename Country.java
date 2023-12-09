@@ -48,4 +48,5 @@ public class Country {
     public void setAccessSea(boolean accessSea) {
         this.accessSea = accessSea;
     }
+    //проверка работы git по курсу git
 }
